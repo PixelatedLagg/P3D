@@ -1,42 +1,29 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'c:/Users/pixil/Desktop/Glimpse'
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:\Users\pixil\Desktop\Glimpse -BC:\Users\pixil\Desktop\Glimpse --check-build-system CMakeFiles\Makefile.cmake 0
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_start C:\Users\pixil\Desktop\Glimpse\CMakeFiles C:\Users\pixil\Desktop\Glimpse\\CMakeFiles\progress.marks
+make: Entering directory 'c:/Users/pixil/Desktop/P3D'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:\Users\pixil\Desktop\P3D -BC:\Users\pixil\Desktop\P3D --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_start C:\Users\pixil\Desktop\P3D\CMakeFiles C:\Users\pixil\Desktop\P3D\\CMakeFiles\progress.marks
 C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\Makefile2 all
  
-make[1]: Entering directory 'c:/Users/pixil/Desktop/Glimpse'
-C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/depend
+make[1]: Entering directory 'c:/Users/pixil/Desktop/P3D'
+C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\p3d.dir\build.make CMakeFiles/p3d.dir/depend
  
-make[2]: Entering directory 'c:/Users/pixil/Desktop/Glimpse'
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\pixil\Desktop\Glimpse C:\Users\pixil\Desktop\Glimpse C:\Users\pixil\Desktop\Glimpse C:\Users\pixil\Desktop\Glimpse C:\Users\pixil\Desktop\Glimpse\CMakeFiles\glimpse.dir\DependInfo.cmake --color=
-make[2]: Leaving directory 'c:/Users/pixil/Desktop/Glimpse'
+make[2]: Entering directory 'c:/Users/pixil/Desktop/P3D'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\pixil\Desktop\P3D C:\Users\pixil\Desktop\P3D C:\Users\pixil\Desktop\P3D C:\Users\pixil\Desktop\P3D C:\Users\pixil\Desktop\P3D\CMakeFiles\p3d.dir\DependInfo.cmake --color=
+make[2]: Leaving directory 'c:/Users/pixil/Desktop/P3D'
  
-C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/build
+C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\p3d.dir\build.make CMakeFiles/p3d.dir/build
  
-make[2]: Entering directory 'c:/Users/pixil/Desktop/Glimpse'
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/glimpse.dir/src/coll.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/coll.cpp.obj -MF CMakeFiles\glimpse.dir\src\coll.cpp.obj.d -o CMakeFiles\glimpse.dir\src\coll.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\coll.cpp
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=2 "Building CXX object CMakeFiles/glimpse.dir/src/color.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/color.cpp.obj -MF CMakeFiles\glimpse.dir\src\color.cpp.obj.d -o CMakeFiles\glimpse.dir\src\color.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\color.cpp
+make[2]: Entering directory 'c:/Users/pixil/Desktop/P3D'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\P3D\CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/p3d.dir/src/main.cpp.obj"
+C:\MinGW\bin\g++.exe  @CMakeFiles/p3d.dir/includes_CXX.rsp  -MD -MT CMakeFiles/p3d.dir/src/main.cpp.obj -MF CMakeFiles\p3d.dir\src\main.cpp.obj.d -o CMakeFiles\p3d.dir\src\main.cpp.obj -c C:\Users\pixil\Desktop\P3D\src\main.cpp
  
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/glimpse.dir/src/comp.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/comp.cpp.obj -MF CMakeFiles\glimpse.dir\src\comp.cpp.obj.d -o CMakeFiles\glimpse.dir\src\comp.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\comp.cpp
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=4 "Building CXX object CMakeFiles/glimpse.dir/src/game.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/game.cpp.obj -MF CMakeFiles\glimpse.dir\src\game.cpp.obj.d -o CMakeFiles\glimpse.dir\src\game.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\game.cpp
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=5 "Building CXX object CMakeFiles/glimpse.dir/src/gobj.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/gobj.cpp.obj -MF CMakeFiles\glimpse.dir\src\gobj.cpp.obj.d -o CMakeFiles\glimpse.dir\src\gobj.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\gobj.cpp
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=6 "Building CXX object CMakeFiles/glimpse.dir/src/main.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/main.cpp.obj -MF CMakeFiles\glimpse.dir\src\main.cpp.obj.d -o CMakeFiles\glimpse.dir\src\main.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\main.cpp
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=7 "Building CXX object CMakeFiles/glimpse.dir/src/math.cpp.obj"
-C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/math.cpp.obj -MF CMakeFiles\glimpse.dir\src\math.cpp.obj.d -o CMakeFiles\glimpse.dir\src\math.cpp.obj -c C:\Users\pixil\Desktop\Glimpse\src\math.cpp
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --bold --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=8 "Linking CXX executable glimpse.exe"
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\glimpse.dir\link.txt --verbose=
-make[2]: Leaving directory 'c:/Users/pixil/Desktop/Glimpse'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --bold --progress-dir=C:\Users\pixil\Desktop\P3D\CMakeFiles --progress-num=2 "Linking CXX executable p3d.exe"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\p3d.dir\link.txt --verbose=
+make[2]: Leaving directory 'c:/Users/pixil/Desktop/P3D'
  
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --progress-dir=C:\Users\pixil\Desktop\Glimpse\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target glimpse"
-make[1]: Leaving directory 'c:/Users/pixil/Desktop/Glimpse'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --progress-dir=C:\Users\pixil\Desktop\P3D\CMakeFiles --progress-num=1,2 "Built target p3d"
+make[1]: Leaving directory 'c:/Users/pixil/Desktop/P3D'
  
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_start C:\Users\pixil\Desktop\Glimpse\CMakeFiles 0
- 
-make: Leaving directory 'c:/Users/pixil/Desktop/Glimpse'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_start C:\Users\pixil\Desktop\P3D\CMakeFiles 0
+make: Leaving directory 'c:/Users/pixil/Desktop/P3D'
  

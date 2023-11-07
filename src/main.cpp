@@ -1,6 +1,7 @@
-#include<windows.h>
+#include <windows.h>
 #include "include/glut.h"
 
+//not my code; testing if glut is properly installed
 void display()
 {
     glClear(GL_COLOR_BUFFER_BIT);
