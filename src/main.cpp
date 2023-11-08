@@ -1,5 +1,5 @@
 #include <windows.h>
-#include "include/glut.h"
+#include <GL/glut.h>
 
 //not my code; testing if glut is properly installed
 void display()
