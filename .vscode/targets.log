@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Tue Nov 07 22:10:02 2023
+# Make data base, printed on Wed Nov 08 21:30:01 2023
 
 # Variables
 
@@ -36,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6772_NDYRHBUNZRTPROBN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16956_ZJDPKXSIYBIGHYIN
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -48,7 +49,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\c97d74fba0df6c8da3e0e469a4f37c4ed9612682
+VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\7771124ebd6b7f6e60da14d744961b717b73282f
 # environment
 LANG = C
 # default
@@ -88,7 +89,7 @@ CMAKE_BINARY_DIR = C:\Users\pixil\Desktop\P3D
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 6772
+VSCODE_PID = 16956
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 59)
@@ -122,7 +123,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\MinGW\mingw32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\pixil\Desktop\DBGen\bin\Debug\net6.0\;C:\Program Files\nodejs\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\MinGW\mingw32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\pixil\Desktop\DBGen\bin\Debug\net6.0\;C:\Program Files\nodejs\;C:\Users\pixil\AppData\Local\Microsoft\WindowsApps;C:\Users\pixil\.dotnet\tools;C:\cygnus\cygwin-b20\H-i586-cygwin32\bin;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\pixil\AppData\Local\GitHubDesktop\bin;C:\Users\pixil\Desktop\nuget\nuget.exe;C:\MinGW\bin;C:\Users\pixil\AppData\Roaming\npm;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code Insiders\bin
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\MinGW\mingw32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\pixil\Desktop\DBGen\bin\Debug\net6.0\;C:\Program Files\nodejs\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\MinGW\mingw32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\pixil\Desktop\DBGen\bin\Debug\net6.0\;C:\Program Files\nodejs\;C:\Users\pixil\AppData\Local\Microsoft\WindowsApps;C:\Users\pixil\.dotnet\tools;C:\cygnus\cygwin-b20\H-i586-cygwin32\bin;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\pixil\AppData\Local\GitHubDesktop\bin;C:\Users\pixil\Desktop\nuget\nuget.exe;C:\MinGW\bin;C:\Users\pixil\AppData\Roaming\npm;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\msys64\ucrt64\bin;
 # environment
 COMPUTERNAME = DESKTOP-84SO2KG
 # default
@@ -157,8 +158,6 @@ GNUMAKEFLAGS :=
 OS = Windows_NT
 # makefile (from 'Makefile', line 56)
 EQUALS = =
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := default_target
 # makefile (from 'Makefile', line 53)
@@ -202,13 +201,14 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target  
+extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 0101
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=8/133=6%
+# Load=97/1024=9%, Rehash=0, Collisions=8/132=6%
 
 # Pattern-specific Variable Values
 
@@ -218,9 +218,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (key c:/Users/pixil/Desktop/P3D, mtime 1699378614): 13 files, no impossibilities.
+# . (key c:/Users/pixil/Desktop/P3D, mtime 1699496046): 15 files, no impossibilities.
 
-# 13 files, no impossibilities in 3 directories.
+# 15 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -279,7 +279,8 @@ p3d: cmake_check_build_system
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 123):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p3d
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ 
+Makefile2 p3d
 
 edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
@@ -290,7 +291,7 @@ edit_cache/fast: edit_cache
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2023-11-07 12:36:53
+#  Last modified 2023-11-08 20:56:44
 #  File has been updated.
 #  Successfully updated.
 
@@ -405,8 +406,7 @@ help:
 clean/fast: clean
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
-#  File does not  
-exist.
+#  File does not exist.
 #  File has not been updated.
 
 .NOTPARALLEL:
@@ -484,12 +484,12 @@ p3d/fast:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 50 / storage = 530 B / avg = 10 B
-# current buf: size = 8174 B / used = 530 B / count = 50 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 52 / storage = 562 B / avg = 10 B
+# current buf: size = 8174 B / used = 562 B / count = 52 / avg = 10 B
 
-# strcache performance: lookups = 163 / hit rate = 69%
+# strcache performance: lookups = 165 / hit rate = 68%
 # hash-table stats:
-# Load=50/8192=1%, Rehash=0, Collisions=0/163=0%
-# Finished Make data base on Tue Nov 07 22:10:02 2023
+# Load=52/8192=1%, Rehash=0, Collisions=0/165=0%
+# Finished Make data base on Wed Nov 08 21:30:01 2023
 
  
