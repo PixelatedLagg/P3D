@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Wed Nov 08 21:30:01 2023
+# Make data base, printed on Thu Nov 09 22:24:55 2023
 
 # Variables
 
@@ -37,7 +36,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16956_ZJDPKXSIYBIGHYIN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12088_UWORKDNOYGWHBZDA
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -89,7 +88,7 @@ CMAKE_BINARY_DIR = C:\Users\pixil\Desktop\P3D
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 16956
+VSCODE_PID = 12088
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 59)
@@ -201,8 +200,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target  
-extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 0101
 # environment
@@ -279,8 +277,7 @@ p3d: cmake_check_build_system
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 123):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ 
-Makefile2 p3d
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p3d
 
 edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
@@ -407,7 +404,8 @@ clean/fast: clean
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has not been 
+ updated.
 
 .NOTPARALLEL:
 #  Implicit rule search has not been done.
@@ -490,6 +488,6 @@ p3d/fast:
 # strcache performance: lookups = 165 / hit rate = 68%
 # hash-table stats:
 # Load=52/8192=1%, Rehash=0, Collisions=0/165=0%
-# Finished Make data base on Wed Nov 08 21:30:01 2023
+# Finished Make data base on Thu Nov 09 22:24:55 2023
 
  

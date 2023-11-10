@@ -22,7 +22,6 @@ C:\MinGW\bin\g++.exe  @CMakeFiles/p3d.dir/includes_CXX.rsp  -MD -MT CMakeFiles/p
 make[2]: Leaving directory 'c:/Users/pixil/Desktop/P3D'
  
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --progress-dir=C:\Users\pixil\Desktop\P3D\CMakeFiles --progress-num=1,2 "Built target p3d"
- 
 make[1]: Leaving directory 'c:/Users/pixil/Desktop/P3D'
  
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_start C:\Users\pixil\Desktop\P3D\CMakeFiles 0

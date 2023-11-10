@@ -1,1 +1,5 @@
+CMake fresh:
 cmake . -G "MinGW Makefiles"
+
+Ideas:
+-store everything as list of planes, rather than list of objects
