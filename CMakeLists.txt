@@ -12,9 +12,12 @@ target_include_directories(p3d
     PRIVATE 
         ${PROJECT_SOURCE_DIR}/src
 )
+
 target_link_libraries(p3d
     PRIVATE 
         mingw32
         ${CMAKE_SOURCE_DIR}/freeglut.dll
+        ${CMAKE_SOURCE_DIR}/glew32.dll
         opengl32
+        glu32
 )
