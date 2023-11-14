@@ -2,6 +2,7 @@
 #include <GL/glu.h>
 #include <stdio.h>
 
+#include "main.h"
 #include "display.h"
 #include "parse.h"
 

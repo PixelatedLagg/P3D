@@ -3,7 +3,7 @@
 
 #include "quad.h"
 
-quad* quads;
+extern quad* quads;
 
 void display();
 

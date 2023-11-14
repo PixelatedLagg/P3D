@@ -1,7 +1,12 @@
 #include <GL/gl.h>
+#include <GL/glut.h>
+
+#include "display.h"
 
 #define windowWidth 1024
 #define windowHeight 768
+
+quad* quads;
 
 //called when window init and needs to be re-painted
 void display()
