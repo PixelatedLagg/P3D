@@ -2,7 +2,6 @@
 #include <GL/glu.h>
 #include <stdio.h>
 
-#include "main.h"
 #include "display.h"
 #include "parse.h"
 
@@ -58,8 +57,6 @@ void passiveMotion(int x, int y)
 
 int main(int argc, char* argv[])
 {
-    parse("levels/map.lvl");
-    return 0;
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
 

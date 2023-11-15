@@ -1,7 +1,7 @@
 #ifndef DISPLAY_H
 #define DISPLAY_H
 
-#include "quad.h"
+#include "prim.h"
 
 extern quad* quads;
 
