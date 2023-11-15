@@ -7,6 +7,7 @@
 #define windowHeight 768
 
 quad* quads;
+tri* tris;
 
 //called when window init and needs to be re-painted
 void display()

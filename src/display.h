@@ -4,6 +4,7 @@
 #include "prim.h"
 
 extern quad* quads;
+extern tri* tris;
 
 void display();
 
