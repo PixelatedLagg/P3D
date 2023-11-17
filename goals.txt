@@ -1,0 +1,6 @@
+goals:
+
+-basic shapes **without too many custom structures
+-rotation and transformation of shapes
+-finish parsing of save files
+-barebones level editor
