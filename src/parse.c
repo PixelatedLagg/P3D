@@ -22,10 +22,10 @@ void parse(char* file)
             switch (currentChar)
             {
                 case 'q':
-                    quads = (quad*)malloc(atoi(count) * sizeof(quad)); //assign quad# from float in count
+                    quads = (quad*)malloc(atoi(count) * sizeof(quad)); //assign quad# from int in count
                     break;
                 case 't':
-                    tris = (quad*)malloc(atoi(count) * sizeof(quad)); //assign tri# from float in count
+                    tris = (tri*)malloc(atoi(count) * sizeof(tri)); //assign tri# from int in count
                     break;
             }
             free(count);
@@ -34,44 +34,73 @@ void parse(char* file)
         }
         switch (currentChar)
         {
-            case 'q': //parsing for 4 values, repeat parse by comma x4, and inside repeat parse by space x4
+            case 'q': //parsing for 4 values, repeat parse by comma x4, and inside repeat parse by space x3
                 quad q;
-                char* comma;
-                comma = strtok(readBuffer,",");
-                char* space;
+                char* qcomma;
+                qcomma = strtok(readBuffer,",");
+                char* qspace;
 
-                space = strtok(comma," ");
-                q.v1_x = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v1_y = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v1_z = strtof(space, NULL);
-                comma = strtok(NULL, ",");
-                space = strtok(comma," ");
+                qspace = strtok(qcomma," ");
+                q.v1_x = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v1_y = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v1_z = strtof(qspace, NULL);
+                qcomma = strtok(NULL, ",");
+                qspace = strtok(qcomma," ");
 
-                q.v2_x = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v2_y = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v2_z = strtof(space, NULL);
-                comma = strtok(NULL, ",");
-                space = strtok(comma," ");
+                q.v2_x = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v2_y = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v2_z = strtof(qspace, NULL);
+                qcomma = strtok(NULL, ",");
+                qspace = strtok(qcomma," ");
 
-                q.v3_x = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v3_y = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v3_z = strtof(space, NULL);
-                comma = strtok(NULL, ",");
-                space = strtok(comma," ");
+                q.v3_x = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v3_y = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v3_z = strtof(qspace, NULL);
+                qcomma = strtok(NULL, ",");
+                qspace = strtok(qcomma," ");
                 
-                q.v4_x = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v4_y = strtof(space, NULL);
-                space = strtok(NULL, " ");
-                q.v4_z = strtof(space, NULL);
+                q.v4_x = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v4_y = strtof(qspace, NULL);
+                qspace = strtok(NULL, " ");
+                q.v4_z = strtof(qspace, NULL);
                 break;
-            case 't': //parsing for 3 values
+            case 't': //parsing for 3 values, repeat parse by comma x3, and inside repeat parse by space x3
+                tri t;
+                char* tcomma;
+                tcomma = strtok(readBuffer,",");
+                char* tspace;
+
+                tspace = strtok(tcomma," ");
+                t.v1_x = strtof(tspace, NULL);
+                tspace = strtok(NULL, " ");
+                t.v1_y = strtof(tspace, NULL);
+                tspace = strtok(NULL, " ");
+                t.v1_z = strtof(tspace, NULL);
+                tcomma = strtok(NULL, ",");
+                tspace = strtok(tcomma," ");
+
+                t.v2_x = strtof(tspace, NULL);
+                tspace = strtok(NULL, " ");
+                t.v2_y = strtof(tspace, NULL);
+                tspace = strtok(NULL, " ");
+                t.v2_z = strtof(tspace, NULL);
+                tcomma = strtok(NULL, ",");
+                tspace = strtok(tcomma," ");
+
+                t.v3_x = strtof(tspace, NULL);
+                tspace = strtok(NULL, " ");
+                t.v3_y = strtof(tspace, NULL);
+                tspace = strtok(NULL, " ");
+                t.v3_z = strtof(tspace, NULL);
+                tcomma = strtok(NULL, ",");
+                tspace = strtok(tcomma," ");
                 break;
         }
         primI++;
