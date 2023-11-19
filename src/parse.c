@@ -106,10 +106,3 @@ void parse(char* file)
         primI++;
     }
 }
-
-/*
-string->float
-
-float f;
-f = strtof(buff, NULL);
-*/
