@@ -2,9 +2,11 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 #include "parse.h"
 #include "display.h"
+#include "prim.h"
 
 void parse(char* file)
 {
@@ -24,16 +26,17 @@ void parse(char* file)
             switch (currentChar)
             {
                 case 'q':
-                    quads = (quad*)malloc(atoi(count) * sizeof(quad)); //assign quad# from int in count
-                    break;
+                quads = calloc(atoi(count), sizeof(quad)); //assign quad# from int in count
+                break;
                 case 't':
-                    tris = (tri*)malloc(atoi(count) * sizeof(tri)); //assign tri# from int in count
-                    break;
+                tris = calloc(atoi(count), sizeof(tri)); //assign tri# from int in count
+                break;
             }
             free(count);
             primI = 0;
             continue;
         }
+        primI++;
         switch (currentChar)
         {
             case 'q': //parsing for 4 values, repeat parse by comma x4, and inside repeat parse by space x3
@@ -84,4 +87,5 @@ void parse(char* file)
         }
         primI++;
     }
+    fclose(data);
 }
